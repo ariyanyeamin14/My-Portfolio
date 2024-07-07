@@ -18,14 +18,19 @@
     font-weight: 700;
     font-size: 19px;
 }
-
+/* header-style  */
+header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 95px , 750px;
+}
 /* nav style */
-
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:0 120px ;
+    margin:0 150px ;
 }
 .nav-title{
     font-weight: 800;
@@ -43,4 +48,29 @@ nav ul li a{
 nav ul{
     display: flex;
     align-items: center;
+}
+
+/* banner style  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 150px;
+}
+.banner-content{
+    width: 590px;
+}
+.banner-hi{
+    font-size: 35px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 70px;
+}
+p.banner-description {
+    color: #757575;
+    font-size: 18px;
+}
+.banner-pic{
+    width: 490px;
 }
