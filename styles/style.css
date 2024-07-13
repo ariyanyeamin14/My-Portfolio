@@ -134,3 +134,102 @@ main{
     box-shadow: 0 6px 50px 0 #99999945;
     padding: 30px;
 }
+
+/* resume styles  */
+.resume-container {
+    display: flex;
+    gap: 30px;
+}
+h4.education-degree , .experiance-degree{
+    font-size: 25px;
+    color: #474747;
+    margin: 30px 0 15px 0;
+}
+p.education-institute, .experiance-institute {
+    color: #757575;
+    font-size: 19px;
+    font-weight: 500;
+}
+p.education-description, .experiance-description {
+    color: #757575;
+    margin: 16px 0;
+    line-height: 1.6;
+}
+h4.education-title , .experiance-title{
+    color: #474747;
+    font-size: 30px;
+}
+h3.resume-title {
+    margin: 125px 0 60px 0;
+}
+.resume-btn{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.hide{
+    display: none;
+}
+
+/* Responsive Design  */
+@media screen and (max-width:570px) {
+    .skill-container{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .about{
+        padding: 20px;
+    }
+    .about-items{
+        flex-direction: column;
+        gap: 40px
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+    .banner-content{
+        width: 100%;
+        margin: 30px 0;
+    }
+    .banner-title{
+        font-size: 40px;
+    }
+    .banner-hi{
+        font-size: 25px;
+    }
+    .banner-pic {
+        width: 90%;
+        margin: 0 auto;
+    }
+    nav{
+        margin: 0px 12px;
+        padding-top: 20px;
+    }
+    header{
+        background: none;
+    }
+    nav ul li{
+        margin-left: 22px;
+    }
+    nav ul li a{
+        font-size: 18px;
+    }
+    .nav-title {
+        font-size: 40px;
+    }
+    p.banner-description {
+        margin: 40px 0;
+    }
+    .btn-primary{
+        padding: 14px 28px;
+    }
+    button#hire-btn {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px 10px;
+    }
+}
